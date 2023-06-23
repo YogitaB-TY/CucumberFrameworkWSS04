@@ -1,0 +1,915 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6948100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Browser is open to Welcome Page",
+            "match": {
+              "location": "com.cucumber.stepDefinitions.Books.browser_is_open_to_welcome_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5872700800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user logs in using valid credentials",
+            "match": {
+              "location": "com.cucumber.stepDefinitions.Books.user_logs_in_using_valid_credentials(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "yogbelavanaki@gmail.com",
+                  "Password@123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2115348900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Home Page should be displayed",
+            "match": {
+              "location": "com.cucumber.stepDefinitions.Books.home_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3128802800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Should navigate to Books page",
+            "match": {
+              "location": "com.cucumber.stepDefinitions.Books.user_should_navigate_to_books_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-22T10:15:14.714Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5566649700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cucumber.hook.Hook.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Verify user can choose Name: A-Z in sort by dropdown",
+        "description": "",
+        "id": "books;verify-user-can-choose-name:-a-z-in-sort-by-dropdown",
+        "after": [
+          {
+            "result": {
+              "duration": 120652100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cucumber.hook.Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4772049800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user chooses Name A-Z in drop down",
+            "match": {
+              "location": "com.cucumber.stepDefinitions.Books.user_chooses_name_a_z_in_drop_down()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1511400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The products should be dislpayed in A to Z order",
+            "match": {
+              "location": "com.cucumber.stepDefinitions.Books.the_products_should_be_dislpayed_in_a_to_z_order()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@functionalScenario"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Browser is open to Welcome Page",
+            "match": {
+              "location": "com.cucumber.stepDefinitions.Books.browser_is_open_to_welcome_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5912294600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user logs in using valid credentials",
+            "match": {
+              "location": "com.cucumber.stepDefinitions.Books.user_logs_in_using_valid_credentials(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "yogbelavanaki@gmail.com",
+                  "Password@123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2065252300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Home Page should be displayed",
+            "match": {
+              "location": "com.cucumber.stepDefinitions.Books.home_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2972255800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Should navigate to Books page",
+            "match": {
+              "location": "com.cucumber.stepDefinitions.Books.user_should_navigate_to_books_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-22T10:15:36.432Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4171443100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cucumber.hook.Hook.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Verify if user can add computing and network book to cart",
+        "description": "",
+        "id": "books;verify-if-user-can-add-computing-and-network-book-to-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 318089200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cucumber.hook.Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2089912900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user clicks on add to cart button for Computing and network book",
+            "match": {
+              "location": "com.cucumber.stepDefinitions.Books.user_clicks_on_add_to_cart_button_for_computing_and_network_book()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5478181200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Book should be added to cart",
+            "match": {
+              "location": "com.cucumber.stepDefinitions.Books.book_should_be_added_to_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@integrationScenario"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1860200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Browser is open to Welcome Page",
+            "match": {
+              "location": "com.cucumber.stepDefinitions.Books.browser_is_open_to_welcome_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5896673100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user logs in using valid credentials",
+            "match": {
+              "location": "com.cucumber.stepDefinitions.Books.user_logs_in_using_valid_credentials(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "yogbelavanaki@gmail.com",
+                  "Password@123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2092420500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Home Page should be displayed",
+            "match": {
+              "location": "com.cucumber.stepDefinitions.Books.home_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3045636400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Should navigate to Books page",
+            "match": {
+              "location": "com.cucumber.stepDefinitions.Books.user_should_navigate_to_books_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-22T10:15:59.477Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4235166400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cucumber.hook.Hook.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Verify is user can add Health Book to wishlist",
+        "description": "",
+        "id": "books;verify-is-user-can-add-health-book-to-wishlist",
+        "after": [
+          {
+            "result": {
+              "duration": 367584300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cucumber.hook.Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3649711000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user clicks on Health book",
+            "match": {
+              "location": "com.cucumber.stepDefinitions.Books.user_clicks_on_health_book()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2096020800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "clicks on add to wishlist button",
+            "match": {
+              "location": "com.cucumber.stepDefinitions.Books.clicks_on_add_to_wishlist_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [Health Book] but found [Create Your Own Jewelry]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:140)\r\n\tat org.testng.Assert.assertEquals(Assert.java:122)\r\n\tat org.testng.Assert.assertEquals(Assert.java:629)\r\n\tat org.testng.Assert.assertEquals(Assert.java:639)\r\n\tat com.cucumber.stepDefinitions.Books.product_should_be_added_to_wishlist(Books.java:105)\r\n\tat ✽.product should be added to wishlist(file:///C:/Users/User/eclipse-workspace/LearningCucumber/./src/test/java/com/cucumber/features/Books.feature:27)\r\n",
+              "duration": 6047442600,
+              "status": "failed"
+            },
+            "line": 27,
+            "name": "product should be added to wishlist",
+            "match": {
+              "location": "com.cucumber.stepDefinitions.Books.product_should_be_added_to_wishlist()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@integrationScenario"
+          }
+        ]
+      }
+    ],
+    "name": "Books",
+    "description": "",
+    "id": "books",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/cucumber/features/Books.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-06-22T10:16:26.959Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4634950800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cucumber.hook.Hook.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify user can login using valid credentials",
+        "description": "",
+        "id": "login;verify-user-can-login-using-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 328330800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cucumber.hook.Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I will launch browser and Enter the url",
+            "match": {
+              "location": "com.cucumber.stepDefinitions.Login.i_will_launch_browser_and_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 617363500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I will click on Login in",
+            "match": {
+              "location": "com.cucumber.stepDefinitions.Login.i_will_click_on_login_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 229855100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter email and password",
+            "match": {
+              "location": "com.cucumber.stepDefinitions.Login.enter_email_and_password(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "yogbelavanaki@gmail.com",
+                  "Password@123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1026357900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click on sign in",
+            "match": {
+              "location": "com.cucumber.stepDefinitions.Login.click_on_sign_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81603400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User name should be displayed or not",
+            "match": {
+              "location": "com.cucumber.stepDefinitions.Login.user_name_should_be_displayed_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@functionalScenario"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/cucumber/features/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-06-22T10:16:33.923Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3602377300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cucumber.hook.Hook.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Verify user can register using valid credentials",
+        "description": "",
+        "id": "register;verify-user-can-register-using-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 161001700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cucumber.hook.Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Browser is open and \"https://demowebshop.tricentis.com/\" is navigated",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://demowebshop.tricentis.com/\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.cucumber.stepDefinitions.Register.browser_is_open_and_url_is_navigated(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 624989600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on Register Link",
+            "match": {
+              "location": "com.cucumber.stepDefinitions.Register.user_clicks_on_register_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5586664000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters \"M\" \"Lionel\" \"Messi\" \"lionelmessi@gmail.com\" \"Password@123\" \"Password@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"M\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Lionel\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Messi\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"lionelmessi@gmail.com\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"Password@123\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"Password@123\"",
+                  "offset": 72
+                }
+              ],
+              "location": "com.cucumber.stepDefinitions.Register.user_enters(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 773418300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clicks on Register button",
+            "match": {
+              "location": "com.cucumber.stepDefinitions.Register.clicks_on_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59953700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should be successfully registered",
+            "match": {
+              "location": "com.cucumber.stepDefinitions.Register.user_should_be_successfully_registered()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@functionalScenario"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-22T10:16:44.757Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4499942300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cucumber.hook.Hook.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Verify user can register using valid credentials",
+        "description": "",
+        "id": "register;verify-user-can-register-using-valid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 276295600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cucumber.hook.Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Browser is open and \"https://demowebshop.tricentis.com/\" is navigated",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://demowebshop.tricentis.com/\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.cucumber.stepDefinitions.Register.browser_is_open_and_url_is_navigated(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 615099800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on Register Link",
+            "match": {
+              "location": "com.cucumber.stepDefinitions.Register.user_clicks_on_register_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5520382900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters \"M\" \"Cristiano\" \"Ronaldo\" \"cronaldo@gmail.com\" \"Password@123\" \"Password@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"M\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Cristiano\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Ronaldo\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"cronaldo@gmail.com\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"Password@123\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"Password@123\"",
+                  "offset": 74
+                }
+              ],
+              "location": "com.cucumber.stepDefinitions.Register.user_enters(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 847415000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clicks on Register button",
+            "match": {
+              "location": "com.cucumber.stepDefinitions.Register.clicks_on_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83251700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should be successfully registered",
+            "match": {
+              "location": "com.cucumber.stepDefinitions.Register.user_should_be_successfully_registered()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@functionalScenario"
+          }
+        ]
+      }
+    ],
+    "name": "Register",
+    "description": "",
+    "id": "register",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/cucumber/features/Register.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-06-22T10:16:56.627Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3736546700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cucumber.hook.Hook.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify user can add Smartphone to cart ater login",
+        "description": "",
+        "id": "electronics;verify-user-can-add-smartphone-to-cart-ater-login",
+        "after": [
+          {
+            "result": {
+              "duration": 349211300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cucumber.hook.Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browser is open and \"https://demowebshop.tricentis.com/\" is entered",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://demowebshop.tricentis.com/\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.cucumber.stepDefinitions.SmartPhoneCart.browser_is_open_and_is_entered(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7920594900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user logs in using \"yogbelavanaki@gmail.com\" and \"Password@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yogbelavanaki@gmail.com\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Password@123\"",
+                  "offset": 49
+                }
+              ],
+              "location": "com.cucumber.stepDefinitions.SmartPhoneCart.user_logs_in_using_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11448633800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user navigates to cell phones page",
+            "match": {
+              "location": "com.cucumber.stepDefinitions.SmartPhoneCart.user_navigates_to_cell_phones_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2077603400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clicks on add to cart of SmartPhone product",
+            "match": {
+              "location": "com.cucumber.stepDefinitions.SmartPhoneCart.clicks_on_add_to_cart_of_smart_phone_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2833505400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "product should be added to cart",
+            "match": {
+              "location": "com.cucumber.stepDefinitions.SmartPhoneCart.product_should_be_added_to_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@integrationScenario"
+          }
+        ]
+      }
+    ],
+    "name": "Electronics",
+    "description": "",
+    "id": "electronics",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/cucumber/features/SmartPhoneCart.feature",
+    "tags": []
+  }
+]
